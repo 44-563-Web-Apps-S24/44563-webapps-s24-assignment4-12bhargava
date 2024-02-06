@@ -2,21 +2,21 @@
 
 /* Speech class styles */
 .speech {
-    font-family: 'YourSpeechFont', sans-serif; /* Choose the desired font for speech */
+    font-family: 'Garamond', sans-serif; /* Choose the desired font for speech */
     font-size: 16px; /* Choose the desired font size for speech */
     color: black; /* Black color for speech text */
   }
   
   /* Direction class styles */
   .direction {
-    font-family: 'YourDirectionFont', sans-serif; /* Choose the desired font for directions */
+    font-family: 'Arial', sans-serif; /* Choose the desired font for directions */
     font-size: 14px; /* Choose the desired font size for directions */
     color: black; /* Black color for direction text */
     background-color: lightyellow; /* Light background color for directions */
   }
   
   .direction:hover {
-    background-color: lightblue; /* Change background color on hover for directions */
+    background-color: rgb(11, 14, 12); /* Change background color on hover for directions */
     color: white; /* Change text color on hover for directions */
   }
   
@@ -33,5 +33,5 @@
     color: #33cc33; /* Choose a color for Emily's name */
   }
   
-  /* Add more character styles as needed */
+
   
