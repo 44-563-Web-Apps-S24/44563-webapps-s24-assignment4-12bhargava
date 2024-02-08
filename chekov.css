@@ -32,6 +32,46 @@
   .VOITSKI {
     color: #33cc33; /* Choose a color for Emily's name */
   }
+  table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(216, 193, 112);
+ 
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: right;
+}
+tr:nth-child(odd){
+background-color: bisque;
+}
+th,td{
+   padding-top:  20px;
+   padding-bottom: 20px;
+}
+.MARINA:hover{
+    text-shadow: 1px 1px 5px rgb(0, 255, 98);
+}
+ul.navigationbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navigationbar li{
+     float: left;
+     color: #000;
+     background-color:rgb(127, 185, 255);
+}
+ul.navigationbar a{
+    display: block;
+    padding: 8px;
+}
+ul.navigationbar a:hover{
+    background-color: aqua;
+    color: rgb(255, 0, 166);
+}
   
 
   
